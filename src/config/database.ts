@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 import { config } from './config'
 
-dotenv.config({path: '../.env'})
+dotenv.config({ path: '../.env' })
 
 const connectDB = async () => {
 	try {
