@@ -10,4 +10,10 @@ export interface IUser {
 	username: string
 	gender: string
 	status: number
+	role: string
+	passwordChangedAt: Date
+	passwordResetToken: string
+	passwordResetExpires: string
+	createdAt: Date
+	updatedAt: Date
 }
